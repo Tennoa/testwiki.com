@@ -1,0 +1,161 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+nav {
+  background: #171717;
+  color: #fff;
+  padding: 10px;  
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #AAAAAA;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  
+}
+
+main {
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin: auto;
+  background: #302f2f;
+
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+
+#white   {
+    color: white;
+}
+
+.uou {
+align-items: center;
+box-sizing: border-box;
+display: flex;
+height: 48;
+background-color: #1B1B1B;
+color: white;
+border-bottom: 1px solid #373737; 
+font-size: 14px;
+padding-left: 83px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-right: 50px;
+}
+
+.line {
+  border-bottom: 1px solid #373737; /* Параметры линии */
+ }
+A {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  list-style-type: none;
+  color: #AAAAAA;
+  background: #171717;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 20px;
+
+}
+ 
+dd {
+  padding-left: 20px;
+  width: calc(25% - 32px);
+}
+
+section {
+  list-style-type: none;
+  color: #AAAAAA;
+  background: #171717;
+   margin-block-start: 1em;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  margin: auto;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+@font-face {
+font-family: "PressStart2P";
+src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf) format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+h1{
+font-family: "PressStart2P";
+font-size: 20px;
+}
+h2{
+font-family: "PressStart2P";
+font-size: 15px;
+}
+h3{
+font-family: "PressStart2P";
+font-size: 15px;
+}
+
+@font-face {
+font-family: "Comfortaa";
+src: url(fonts/Comfortaa/static/Comfortaa-Regular.ttf) format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+p{
+font-family: "Comfortaa";
+font-size: 15px;
+}
+li{
+  font-family: "Comfortaa";
+  font-size: 15px;
+}
+
+.op{
+padding: 30px;
+}
